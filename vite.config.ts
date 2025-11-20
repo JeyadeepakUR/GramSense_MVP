@@ -14,7 +14,16 @@ export default defineConfig({
   root: './client',
   build: {
     outDir: '../dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'storage': ['idb']
+        }
+      }
+    }
   },
   server: {
     port: 3000,
