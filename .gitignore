@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.vite/
+.cache/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js.snap
+
+# Production
+*.tgz
+*.zip
+
+# Documentation (generated)
+docs/
+BUILD_COMPLETE.md
+PROJECT_SUMMARY.md
+verify-build.ps1
+
+# Redundant files
+ml/
+legacy_backend/
