@@ -1,7 +1,8 @@
 import { getUnsyncedReports, markSynced } from './storage';
 import type { Report } from './types';
 
-const BACKEND_URL = process.env.VITE_BACKEND_URL || 'http://localhost:8000';
+// const BACKEND_URL = process.env.VITE_BACKEND_URL || 'http://localhost:8000';
+const BACKEND_URL = 'https://gramsense-mvp.onrender.com';
 
 /**
  * Sync unsynced reports to backend
